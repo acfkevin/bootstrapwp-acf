@@ -134,7 +134,7 @@ textarea {
   clear: both;
 }
 .hide-text {
-  font: 0/0 a;
+  font: a;
   color: transparent;
   text-shadow: none;
   background-color: transparent;
@@ -1031,64 +1031,40 @@ textarea,
 .controls-row [class*="span"] + [class*="span"] {
   margin-left: 20px;
 }
-input.span12,
-textarea.span12,
-.uneditable-input.span12 {
+input.span12, textarea.span12, .uneditable-input.span12 {
   width: 926px;
 }
-input.span11,
-textarea.span11,
-.uneditable-input.span11 {
+input.span11, textarea.span11, .uneditable-input.span11 {
   width: 846px;
 }
-input.span10,
-textarea.span10,
-.uneditable-input.span10 {
+input.span10, textarea.span10, .uneditable-input.span10 {
   width: 766px;
 }
-input.span9,
-textarea.span9,
-.uneditable-input.span9 {
+input.span9, textarea.span9, .uneditable-input.span9 {
   width: 686px;
 }
-input.span8,
-textarea.span8,
-.uneditable-input.span8 {
+input.span8, textarea.span8, .uneditable-input.span8 {
   width: 606px;
 }
-input.span7,
-textarea.span7,
-.uneditable-input.span7 {
+input.span7, textarea.span7, .uneditable-input.span7 {
   width: 526px;
 }
-input.span6,
-textarea.span6,
-.uneditable-input.span6 {
+input.span6, textarea.span6, .uneditable-input.span6 {
   width: 446px;
 }
-input.span5,
-textarea.span5,
-.uneditable-input.span5 {
+input.span5, textarea.span5, .uneditable-input.span5 {
   width: 366px;
 }
-input.span4,
-textarea.span4,
-.uneditable-input.span4 {
+input.span4, textarea.span4, .uneditable-input.span4 {
   width: 286px;
 }
-input.span3,
-textarea.span3,
-.uneditable-input.span3 {
+input.span3, textarea.span3, .uneditable-input.span3 {
   width: 206px;
 }
-input.span2,
-textarea.span2,
-.uneditable-input.span2 {
+input.span2, textarea.span2, .uneditable-input.span2 {
   width: 126px;
 }
-input.span1,
-textarea.span1,
-.uneditable-input.span1 {
+input.span1, textarea.span1, .uneditable-input.span1 {
   width: 46px;
 }
 .controls-row {
@@ -5243,64 +5219,40 @@ a.badge:hover {
   .controls-row [class*="span"] + [class*="span"] {
     margin-left: 30px;
   }
-  input.span12,
-  textarea.span12,
-  .uneditable-input.span12 {
+  input.span12, textarea.span12, .uneditable-input.span12 {
     width: 1156px;
   }
-  input.span11,
-  textarea.span11,
-  .uneditable-input.span11 {
+  input.span11, textarea.span11, .uneditable-input.span11 {
     width: 1056px;
   }
-  input.span10,
-  textarea.span10,
-  .uneditable-input.span10 {
+  input.span10, textarea.span10, .uneditable-input.span10 {
     width: 956px;
   }
-  input.span9,
-  textarea.span9,
-  .uneditable-input.span9 {
+  input.span9, textarea.span9, .uneditable-input.span9 {
     width: 856px;
   }
-  input.span8,
-  textarea.span8,
-  .uneditable-input.span8 {
+  input.span8, textarea.span8, .uneditable-input.span8 {
     width: 756px;
   }
-  input.span7,
-  textarea.span7,
-  .uneditable-input.span7 {
+  input.span7, textarea.span7, .uneditable-input.span7 {
     width: 656px;
   }
-  input.span6,
-  textarea.span6,
-  .uneditable-input.span6 {
+  input.span6, textarea.span6, .uneditable-input.span6 {
     width: 556px;
   }
-  input.span5,
-  textarea.span5,
-  .uneditable-input.span5 {
+  input.span5, textarea.span5, .uneditable-input.span5 {
     width: 456px;
   }
-  input.span4,
-  textarea.span4,
-  .uneditable-input.span4 {
+  input.span4, textarea.span4, .uneditable-input.span4 {
     width: 356px;
   }
-  input.span3,
-  textarea.span3,
-  .uneditable-input.span3 {
+  input.span3, textarea.span3, .uneditable-input.span3 {
     width: 256px;
   }
-  input.span2,
-  textarea.span2,
-  .uneditable-input.span2 {
+  input.span2, textarea.span2, .uneditable-input.span2 {
     width: 156px;
   }
-  input.span1,
-  textarea.span1,
-  .uneditable-input.span1 {
+  input.span1, textarea.span1, .uneditable-input.span1 {
     width: 56px;
   }
   .thumbnails {
@@ -5589,64 +5541,40 @@ a.badge:hover {
   .controls-row [class*="span"] + [class*="span"] {
     margin-left: 20px;
   }
-  input.span12,
-  textarea.span12,
-  .uneditable-input.span12 {
+  input.span12, textarea.span12, .uneditable-input.span12 {
     width: 710px;
   }
-  input.span11,
-  textarea.span11,
-  .uneditable-input.span11 {
+  input.span11, textarea.span11, .uneditable-input.span11 {
     width: 648px;
   }
-  input.span10,
-  textarea.span10,
-  .uneditable-input.span10 {
+  input.span10, textarea.span10, .uneditable-input.span10 {
     width: 586px;
   }
-  input.span9,
-  textarea.span9,
-  .uneditable-input.span9 {
+  input.span9, textarea.span9, .uneditable-input.span9 {
     width: 524px;
   }
-  input.span8,
-  textarea.span8,
-  .uneditable-input.span8 {
+  input.span8, textarea.span8, .uneditable-input.span8 {
     width: 462px;
   }
-  input.span7,
-  textarea.span7,
-  .uneditable-input.span7 {
+  input.span7, textarea.span7, .uneditable-input.span7 {
     width: 400px;
   }
-  input.span6,
-  textarea.span6,
-  .uneditable-input.span6 {
+  input.span6, textarea.span6, .uneditable-input.span6 {
     width: 338px;
   }
-  input.span5,
-  textarea.span5,
-  .uneditable-input.span5 {
+  input.span5, textarea.span5, .uneditable-input.span5 {
     width: 276px;
   }
-  input.span4,
-  textarea.span4,
-  .uneditable-input.span4 {
+  input.span4, textarea.span4, .uneditable-input.span4 {
     width: 214px;
   }
-  input.span3,
-  textarea.span3,
-  .uneditable-input.span3 {
+  input.span3, textarea.span3, .uneditable-input.span3 {
     width: 152px;
   }
-  input.span2,
-  textarea.span2,
-  .uneditable-input.span2 {
+  input.span2, textarea.span2, .uneditable-input.span2 {
     width: 90px;
   }
-  input.span1,
-  textarea.span1,
-  .uneditable-input.span1 {
+  input.span1, textarea.span1, .uneditable-input.span1 {
     width: 28px;
   }
 }
@@ -6026,7 +5954,7 @@ hr.soften {
   background: linear-gradient(45deg, #020031 0%, #6d3353 100%);
   /* W3C */
 
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#020031', endColorstr='#6d3353', GradientType=1);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#020031', endColorstr='#6d3353', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15), inset 0 -3px 7px rgba(0, 0, 0, 0.15);
@@ -6943,7 +6871,7 @@ h4.widget-title {
   background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
   background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
   background-repeat: no-repeat;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
   border: 1px solid #CCC;
   border-bottom-color: #BBB;
   -webkit-border-radius: 4px;
@@ -7100,10 +7028,10 @@ ol.comment-list li p.meta strong {
   background-image: -o-linear-gradient(top, #0088cc, #0044cc);
   background-image: linear-gradient(top, #0088cc, #0044cc);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
   border-color: #04C #04C #002A80;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
 }
 .button:hover,
 #submit:hover,
@@ -7183,7 +7111,4 @@ img.aligncenter {
   letter-spacing: -1px;
   text-align: center;
   margin-bottom: 9px;
-}
-.masthead h1 {
-  font-size: 60px;
 }
