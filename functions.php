@@ -54,6 +54,8 @@ endif;
   function bootstrapwp_css_loader() {
     wp_enqueue_style('bootstrapwp', get_template_directory_uri().'/css/bootstrapwp.css', false ,'0.90', 'all' );
     wp_enqueue_style('prettify', get_template_directory_uri().'/js/google-code-prettify/prettify.css', false ,'1.0', 'all' );
+	// kme 2013-08-23: Include bootstrap-modal CSS
+	wp_enqueue_style('bootstrap-modal', get_template_directory_uri().'/bootstrap-modal/css/bootstrap-modal.css', false, '2.1', 'all' );
   }
 add_action('wp_enqueue_scripts', 'bootstrapwp_css_loader');
 
@@ -62,9 +64,12 @@ add_action('wp_enqueue_scripts', 'bootstrapwp_css_loader');
 // Loading all JS Script Files.  Remove any files you are not using!
 ################################################################################
   function bootstrapwp_js_loader() {
-       wp_enqueue_script('bootstrapjs', get_template_directory_uri().'/js/bootstrap.min.js', array('jquery'),'0.90', true );
-       wp_enqueue_script('prettifyjs', get_template_directory_uri().'/js/google-code-prettify/prettify.js', array('jquery'),'1.0', true );
-       wp_enqueue_script('demojs', get_template_directory_uri().'/js/bootstrapwp.demo.js', array('jquery'),'0.90', true );
+	wp_enqueue_script('bootstrapjs', get_template_directory_uri().'/js/bootstrap.min.js', array('jquery'),'0.90', true );
+	wp_enqueue_script('prettifyjs', get_template_directory_uri().'/js/google-code-prettify/prettify.js', array('jquery'),'1.0', true );
+	wp_enqueue_script('demojs', get_template_directory_uri().'/js/bootstrapwp.demo.js', array('jquery'),'0.90', true );
+	// kme 2013-08-23: Include bootstrap-modal JS
+	wp_enqueue_script('bootstrap-modalmanager-js', get_template_directory_uri().'/bootstrap-modal/js/bootstrap-modalmanager.js', array('bootstrapjs'), '2.1', true );
+	wp_enqueue_script('bootstrap-modal-js', get_template_directory_uri().'/bootstrap-modal/js/bootstrap-modal.js', array('bootstrap-modalmanager-js'), '2.1', true );
   }
 add_action('wp_enqueue_scripts', 'bootstrapwp_js_loader');
 
